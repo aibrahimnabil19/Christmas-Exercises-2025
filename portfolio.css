@@ -119,7 +119,14 @@ h2{
     background-color: var(--color-accent);
     color: var(--color-text);
     font-weight: var(--fw-bold);
-    border: none; cursor: pointer; 
+    border: none; 
+    cursor: pointer; 
+    transition: all 0.5s ease-in-out;
+}
+button:hover{
+    background-color: var(--color-accent-600);
+    /* color: var(--color-bg); */
+    transform: scale(1.03);
 }
 
 
